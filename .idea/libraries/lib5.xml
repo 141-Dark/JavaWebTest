@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/commons-beanutils-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/jstl-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/commons-logging-1.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/spring-core-5.2.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/spring-jcl-5.2.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/META-INF/out/artifacts/JavaWebTest_war_exploded2/WEB-INF/lib/mysql-connector-java-5.1.26.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

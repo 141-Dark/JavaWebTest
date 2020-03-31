@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>/t /t
+ <user username="12131" userID="11213" password="1" phone="1" email="1"/>/t
+ <user username="刁玉宽" userID="123" password="1" phone="1" email="1"/>
+ <user username="刁玉宽" userID="刁玉宽" password="123" phone="123" email="123"/>
+ <user username="刁玉宽三号" userID="159" password="123" phone="1518811" email="1233"/>
+ <user username="刁二宽" userID="201913453123" password="123" phone="123" email="123"/>
+</users>

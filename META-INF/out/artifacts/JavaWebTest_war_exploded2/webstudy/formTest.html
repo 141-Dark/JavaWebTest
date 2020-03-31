@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单提交测试</title>
+</head>
+<body>
+<form id="f1" action="InnerHtmlTest.html">
+    <input type="text" name="用户名">
+    <br>
+    <!--点击实现onclick方法-->
+    <input type="button" value="提交" onclick="fo();">
+</form>
+
+<hr>
+<!--使用超链接提交，实现功能与form一样-->
+<a href="InnerHtmlTest.html?name = 刁玉宽">点击实现跳转</a>
+
+<hr>
+<!--聚焦和失焦点-->
+<input type="text" id="t" value="请输入密码" onfocus="focus1();" onblur="blur();">
+<script type="text/javascript">
+    //实现提交f1表单
+    function fo() {
+        var f1 = document.getElementById("f1");
+        f1.submit();
+    }
+    
+    //得到焦点时
+    function focus1() {
+        var t = document.getElementById("t");
+        t.value(" ");
+    }
+    
+    //失去焦点时执行
+    function blur() {
+        var t = document.getElementById("t");
+        t.value("请输入密码");
+    }
+</script>
+</body>
+</html>

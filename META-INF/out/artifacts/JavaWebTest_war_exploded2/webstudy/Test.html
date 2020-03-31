@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学习测试一</title>
+</head>
+<body>
+       <u ID="ulid">
+           <li>111</li>
+           <li>222</li>
+           <li>333</li>
+       </u>
+<br/>
+<input type="button" value="添加元素" onclick="add();">
+
+<script type="javascript">
+    //在末尾添加节点(注意：想在哪里添加就得在哪里获取对象)
+    function add() {
+        //获取id，并赋值
+        var ul =  document.getElementById("ulid");
+        //创建li标签
+        var li1 = document.createElement("li");
+        //创建文本内容
+        var text = document.createTextNode("创建的文本内容");
+        //把文本添加到li下面
+        li1.appendChild(text);
+        //把li1添加到ul下面
+        ul.appendChild(li1);
+    }
+</script>
+</body>
+</html>
